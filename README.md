@@ -1,5 +1,5 @@
 # MongolianCode
-mongolian code
+
 
 # 关于制定《传统蒙古文信息交换与处理字形字符标准编码》
 
