@@ -4,7 +4,7 @@
 
  
 
-  编者按：文中蒙古文的编码用的是本文公布的字形字符编码标准，读者在本地PC机（手机）上安装  （蒙古文万码字库）字库就可以在本地机器上正确显现蒙古文文字，字库文件名:HMK.TTF,字体名称：HMK Hamvg Mongol KQD.
+  编者按：文中蒙古文的编码用的是本文公布的字形字符编码标准，读者在本地PC机（手机）上安装ᠬᠠᠮᠤᠭ ᠮᠣᠩᠭᠤᠯ（蒙古文万码字库）字库就可以在本地机器上正确显现蒙古文文字，字库文件名:HMK.TTF,字体名称：HMK Hamvg Mongol KQD.
 
   ***\*本团队开源地址：\****[https://github.com/qidehua63/MongolianCode](https://github.com/qidehua63/MongolianCode)
 
@@ -42,11 +42,9 @@ TmSd AEI768-2020 Ver 0.1.0文字部分按蒙古文读音排序：①按字头排
 
 2. 《传统蒙古文信息交换与处理字形字符标准编码》字符集如表1
 
-
-表1 传统蒙古文信息交换与处理字形字符标准编码表
-
 ![img](https://github.com/qidehua63/MongolianCode/blob/master/code.png)
- 
+
+
 
  
 
@@ -62,7 +60,7 @@ TmSd AEI768-2020 Ver 0.1.0文字部分按蒙古文读音排序：①按字头排
 
 所以，请大家重点检验以下几个方面：
 
-1.重码问题：重码是有多余字符的表现，用户在录入、修改、信息处理时会产生难以选则哪一个字符的情况。TmSd  AEI768-2020 Ver 0.1.0中的 ， ， ， ， ， ，  ᠊᠊，  ᠊，  ，  ᠊᠊， ᠊， ᠊都是一些字形相近的字符，除此之外有重码隐患字符是组合字，如：= + ， = +  +  等诸如此类问题
+1.重码问题：重码是有多余字符的表现，用户在录入、修改、信息处理时会产生难以选则哪一个字符的情况。TmSd  AEI768-2020 Ver 0.1.0中的![img](http://music.suyetech.com\gitimgimage-20200801083041926.png) ![image-20200801083331311](music.suyetech.com/gitimgimage-20200801083331311.png)![image-20200801083422243](music.suyetech.com/gitimgimage-20200801083422243.png)![image-20200801083514074](music.suyetech.com/gitimgimage-20200801083514074.png)![image-20200801083541454](music.suyetech.com/gitimgimage-20200801083541454.png)![image-20200801083614062](music.suyetech.com/gitimgimage-20200801083614062.png)都是一些字形相近的字符，除此之外有重码隐患字符是组合字，如：![image-20200801083642767](music.suyetech.com/gitimgimage-20200801083642767.png)等诸如此类问题
 
 2.缺字符问题：用户在录入、修改、信息处理时会产生找不到用哪一个字符的情况；
 
@@ -70,9 +68,9 @@ TmSd AEI768-2020 Ver 0.1.0文字部分按蒙古文读音排序：①按字头排
 
 4.未尽事宜：即是团队呢意见分歧较大的事情，需要在实践中检验、总结确定
 
-①未能确定zhi,chi和附加成分yi是用文字的标音特征还是用文字的音节特征拆解文字来选择字符；有了如下两种选择方法：一是+(独立)，+(独立)，+(独立)，+(上)，+(末)，二是(独立)，(独立)，(独立)，(上)，(末)；
+①未能确定zhi,chi和附加成分yi是用文字的标音特征还是用文字的音节特征拆解文字来选择字符；有了如下两种选择方法：一是![image-20200801083759524](music.suyetech.com/gitimgimage-20200801083759524.png)(独立)，![image-20200801083824232](music.suyetech.com/gitimgimage-20200801083824232.png)(独立)，![image-20200801083855221](music.suyetech.com/gitimgimage-20200801083855221.png)(独立)，![image-20200801083908813](music.suyetech.com/gitimgimage-20200801083908813.png)(上)，![image-20200801083924108](music.suyetech.com/gitimgimage-20200801083924108.png)(末)，二是![image-20200801083941662](music.suyetech.com/gitimgimage-20200801083941662.png)(独立)，![image-20200801083952648](music.suyetech.com/gitimgimage-20200801083952648.png)(独立)，![image-20200801084002099](music.suyetech.com/gitimgimage-20200801084002099.png)(独立)，![image-20200801084009826](music.suyetech.com/gitimgimage-20200801084009826.png)(上)，![image-20200801084020610](music.suyetech.com/gitimgimage-20200801084020610.png)(末)；
 
-②未能确定中形 ᠊᠊， ᠊，，᠊᠊ ， ᠊， ᠊选一个字符还是两个都选。 
+②未能确定中形 ![image-20200801084039398](music.suyetech.com/gitimgimage-20200801084039398.png)᠊选一个字符还是两个都选。 
 
  
 
